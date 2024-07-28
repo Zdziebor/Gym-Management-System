@@ -4,7 +4,7 @@ require "../urls.php";
 
 
 $response = $_POST['g-recaptcha-response'];
-$recaptcha_secret = "6Le92K0pAAAAAIUS4jXpSgCsnHHJC_2Yhkt1cglr";
+$recaptcha_secret = "6Le92K0pAAAAAIUS4jXpSgC*****************";
 
 $verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptcha_secret}&response={$response}");
 $captcha_success = json_decode($verify);

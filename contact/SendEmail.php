@@ -43,7 +43,7 @@ if ($captcha_success->success == false) {
         $mail->Port = 587;
 
         $mail->Username = "zdziebor2001@gmail.com";
-        $mail->Password = "vhli fdcx vmcr pwfa";
+        $mail->Password = "vhli **** **** ****";
 
         $mail->setFrom($email, $name);
         $mail->addAddress("zdziebor2001@gmail.com", "Jakub");
