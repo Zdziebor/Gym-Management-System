@@ -24,6 +24,7 @@ This project is a comprehensive Gym Management System built using PHP, HTML, CSS
 - **SMTP**: Used for sending emails for password resets and other notifications.
 - **CKEditor**: Integrated CKEditor for rich text editing capabilities.
 - **JustValidate**: Utilized JustValidate for robust form validation.
+- **reCAPTCHA v2**: Implemented reCAPTCHA v2 for forms to enhance security and prevent spam.
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
@@ -33,3 +34,8 @@ This project is a comprehensive Gym Management System built using PHP, HTML, CSS
 - **Email Service**: SMTP
 - **Rich Text Editor**: CKEditor
 - **Form Validation**: JustValidate
+- **Security**: reCAPTCHA v2
+
+---
+
+Jakub Zdzieborski 2024
