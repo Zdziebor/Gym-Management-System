@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #90A9FF;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: white;
+    font-size: 24px;
+}
+
+.header .nav {
+    display: flex;
+    gap: 115px;
+}
+
+.header .nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.header .nav button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.logout-btn {
+    background-color: white;
+    color: #90A9FF;;
+   
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #4F75FC;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #4F75FC;
+    color: white;
+}
+
+
+.header .login-button {
+    background-color: #4F75FC;
+    font-weight: 700;
+
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #4F75FC;
+    transition: background-color 0.3s;
+}
+
+.header .login-button:hover {
+    background-color: white;
+    color: #90A9FF;
+}
+

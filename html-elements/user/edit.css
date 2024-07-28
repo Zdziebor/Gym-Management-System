@@ -1,0 +1,124 @@
+.title {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.edit-title{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -350px;
+
+
+}
+
+.edit-data{
+    text-align: center;
+    border: 1px solid #000;
+    width: 800px;
+    height: 300px;
+    margin-left: 30%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+.phone_number, .street{
+    margin-left: -300px;
+  
+}
+
+.city{
+    margin-left: 300px;
+    margin-top: -49px;
+}
+
+.zip-code{
+    margin-left: 300px;
+    margin-top: -67px;
+}
+ .zip-code input, .street input, .city input, .phone_number input{
+   width: 200px;
+   height: 25px;
+   font-size:20px;
+   font-weight: 700;
+
+}
+
+.phone_number label {
+    margin-right: 110px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+.street label {
+    margin-right: 175px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+.city label {
+    margin-right: 130px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+.zip-code label {
+    margin-right: 125px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+.button {
+    text-align: center; /* Float the login element to the right */
+    margin-left: 44%;
+    margin-top: 50px;
+    background-color: #4F75FC;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #4F75FC;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    width: 250px;
+}
+
+.button:hover {
+    background-color: #90A9FF; /* Change background color */
+    color: white; /* Change text color */
+    border-color: #90A9FF;
+}
+
+.image-1 {
+    margin-top: -20%; 
+    margin-left: 1%; /* Adjust margin-left as needed */
+    position: absolute; /* Change position to absolute */
+}
+
+.image-2 {
+    margin-top: -20%; 
+    margin-left: 82%; /* Adjust margin-left as needed */
+    position: absolute; /* Change position to absolute */
+}
+
+
+.links {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    height: 20px;
+}
+
+.links a {
+    margin: 0 30px; /* Adjust the value as needed */
+    text-decoration: none;
+
+}
+
+.links a:hover {
+  
+    color: #90A9FF; /* Whiter text on hover */
+}

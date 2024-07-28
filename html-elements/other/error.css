@@ -1,0 +1,47 @@
+.content {
+    font-family: 'Roboto', sans-serif;
+
+ text-align: center;
+ margin-top: 50px;
+ color: #000;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.content .text-1{
+   color: #E41C1C
+}
+
+.menu-button {
+ text-align: center;
+ padding: 10px 20px; /* Use relative units for padding */
+ border-radius: 20px;
+ color: white;
+ border: 5px solid #4F75FC;
+ background-color: #4F75FC;
+ transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+ text-decoration: none;
+}
+.menu-button:hover {
+    background-color: #90A9FF; /* Lighter red on hover */
+    border-color:#90A9FF;
+ color: #f0f0f0; /* Whiter text on hover */
+}
+
+.image-2{
+    margin-top: 120px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #4F75FC;
+}
+
+
+.link:hover{
+    color:#90A9FF;
+}

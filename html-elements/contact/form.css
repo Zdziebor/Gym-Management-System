@@ -1,0 +1,83 @@
+.content {
+    text-align: center;
+    width: 500px;
+    margin-left: 37%;
+}
+
+
+.text-xs-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+.name input,
+.email input,
+.subject input
+ {
+    width: 250px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    margin-bottom: 30px; /* Adds spacing between input fields */
+}
+
+.name label,
+.email label,
+.subject label{
+    margin-right: 205px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+
+.message label{
+    margin-right: 370px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+.message textarea {
+    width: 450px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    margin-bottom: 5px; /* Adds spacing between input fields */
+}
+
+.button {
+    text-align: center; /* Float the login element to the right */
+
+    background-color: #4F75FC;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 10px solid #4F75FC;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    width: 200px;
+    margin-top: 20px;
+   
+
+}
+
+
+
+
+.button:hover {
+    background-color: #90A9FF; /* Change background color */
+    color: white; /* Change text color */
+    border-color: #90A9FF;
+}
+
+.image-1 {
+    margin-top: 300px;
+margin-right: 100px;
+    position: absolute;
+    z-index:0;
+
+    }

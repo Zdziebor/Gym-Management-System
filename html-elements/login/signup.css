@@ -1,0 +1,127 @@
+.content {
+    text-align: center;
+  
+    width: 1200px;
+    margin-top: 25px;
+    margin-left: 350px;
+    height: 800px;
+
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.text-xs-center {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+.content input{
+    width: 250px;
+    height: 25px;
+    font-weight: 700;
+}
+
+.content h2{
+    font-size: 15px;
+    color: #686363;
+}
+
+.address-data {
+    margin-left: -350px;
+
+}
+
+.account-data {
+    margin-left: 350px;
+    margin-top: -190px;
+
+}
+
+.content label {
+   
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+
+}
+
+.name label {
+    margin-left: -230px;
+}
+
+.surname label {
+    margin-left: -200px;
+
+}
+
+.phone-number label {
+    margin-left: -165px;
+
+}
+
+.PESEL label {
+    margin-left: -215px;
+
+}
+
+.city label {
+    margin-left: -215px;
+
+}
+
+.street label {
+    margin-left: -225px;
+
+}
+
+.zip-code label {
+    margin-left: -173px;
+
+}
+
+.email label {
+    margin-left: -215px;
+
+}
+
+.password label {
+    margin-left: -221px;
+
+}
+
+.password-confirmation label {
+    margin-left: -170px;
+
+}
+
+
+
+
+.button {
+    text-align: center; /* Float the login element to the right */
+margin-top: 20px;
+    background-color: #4F75FC;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #4F75FC;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    width: 200px;
+   
+
+}
+
+
+
+.button:hover {
+    background-color: #90A9FF; /* Change background color */
+    color: white; /* Change text color */
+    border-color: #90A9FF;
+}

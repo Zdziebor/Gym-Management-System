@@ -1,0 +1,46 @@
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mail input {
+    width: 350px;
+   height: 25px;
+   font-size:20px;
+   font-weight: 400;
+}
+
+.mail label {
+    margin-right: 290px;
+    font-size: 13px;
+    color: #464343;
+    font-weight: 400;
+}
+
+.mail ::placeholder{
+    color: #8d8d8d;
+    font-weight: 200;
+
+
+}
+
+.button {
+    text-align: center; /* Float the login element to the right */
+    
+    
+    background-color: #4F75FC;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #4F75FC;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    width: 250px;
+}
+
+.button:hover {
+    background-color: #90A9FF; /* Change background color */
+    color: white; /* Change text color */
+    border-color: #90A9FF;
+}

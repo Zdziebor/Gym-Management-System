@@ -1,0 +1,124 @@
+.context {
+    margin-top: 5%; /* Instead of fixed pixels, use percentage for responsiveness */
+    font-size: 1.5rem; /* Use relative units for font size */
+    margin-left: 15%; /* Adjust as needed */
+    max-width: 70%; /* Instead of fixed width, use percentage for responsiveness */
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Add a shadow to the bottom part */
+
+}
+
+.your-data {
+    margin-left: 5%; /* Use percentage for positioning */
+}
+
+.column-2 {
+    width: 45%; /* Use percentage for width */
+    margin-left: 50%; /* Adjust as needed */
+    position: relative; /* Use relative positioning */
+    top: -208px; /* Use percentage for positioning */
+}
+
+.column-1 {
+    width: 30%; /* Use percentage for width */
+    margin-left: 5%; /* Use percentage for positioning */
+}
+
+
+.daysLeft {
+    font-size: 1.8rem; /* Use relative units for font size */
+    margin-left: 5%; /* Use percentage for positioning */
+    position: relative;
+    width: 500px;
+    top: -150px;
+}
+
+
+
+
+.hello-user {
+    text-align: center;
+    font-size: 50px; /* Use relative units for font size */
+    margin-top: 2%; /* Use percentage for spacing */
+}
+
+.buy-membership {
+    margin-top: -8%; /* Use percentage for positioning */
+    margin-left: 50%; /* Adjust as needed */
+}
+
+.membership-button {
+    float: right; /* Adjust the float to right */
+    margin-right: 60%; /* Adjust as needed */
+    margin-top: -125px; /* Adjust this value to move the membership-button higher */
+    font-size: 1.6rem; /* Use relative units for font size */
+    cursor: pointer;
+    padding: 0.5em 1em; /* Use relative units for padding */
+    border-radius: 20px;
+    color: white;
+    border: 5px solid red;
+    background-color: red;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    text-decoration: none;
+}
+.membership-button:hover {
+    background-color: #ff6666; /* Lighter red on hover */
+    border-color:#ff6666;
+    color: #f0f0f0; /* Whiter text on hover */
+}
+
+.image-1 {
+    margin-top: -12%; 
+    margin-left: 1%; /* Adjust margin-left as needed */
+    position: absolute; /* Change position to absolute */
+}
+
+.image-2 {
+    margin-top: -13%; 
+    margin-left: 82%; /* Adjust margin-left as needed */
+    position: absolute; /* Change position to absolute */
+}
+
+
+.links {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    height: 20px;
+}
+
+.links a, .links a:visited {
+    margin: 0 30px; /* Adjust the value as needed */
+    text-decoration: none;
+    color: #4F75FC
+
+}
+
+.links a:hover {
+  
+    color: #90A9FF; /* Whiter text on hover */
+}
+
+/* Ensure that button does not overflow its container */
+
+.footer {
+    background-color: #90A9FF;
+    padding: 1px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: flex-end; /* Align content to the end (right) */
+    position: fixed; /* Make the footer stay fixed at the bottom of the viewport */
+    left: 0;
+    right: 0; /* Stretch the footer to the full width of the viewport */
+    bottom: 0;
+    width: 99.9%; /* Make the footer span the full width of the viewport */
+    color: white; /* Set text color to white */
+}
+
+.user-id {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 1560px;
+    font-size: 25px;
+}
+
+

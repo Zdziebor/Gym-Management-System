@@ -1,0 +1,28 @@
+.content {
+       font-family: 'Roboto', sans-serif;
+
+    text-align: center;
+    margin-top: -10px;
+    color: #000;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.payment-button {
+    text-align: center;
+    padding: 10px 20px; /* Use relative units for padding */
+    border-radius: 20px;
+    color: white;
+    border: 5px solid #4F75FC;
+    background-color: #4F75FC;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    text-decoration: none;
+}
+.payment-button:hover {
+    background-color: #90A9FF; /* Lighter red on hover */
+    border-color:#90A9FF;
+    color: #f0f0f0; /* Whiter text on hover */
+}

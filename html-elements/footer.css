@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+    background-color: #90A9FF;
+    padding: 1px; /* Increase padding to give more space */
+    display: flex;
+    /* Align items to the start and end of the container */
+     /* Position the footer at the bottom */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 99.9%; /* Make the footer span the full width of the page */
+    color: white; /* Set text color to white */
+     /* Align content to the end (right) */
+     justify-content: flex-end;
+}
+
+
+.footer .foot {
+    text-align: right;
+    padding-right: 20px ;
+}
+
+

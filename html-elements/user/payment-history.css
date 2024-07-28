@@ -1,0 +1,73 @@
+.user {
+    text-align: center;
+}
+
+.transaction-history {
+    text-align: center;
+    margin-left: -725px;
+}
+
+.transactions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    border: solid;
+    padding: 5px;
+    width: 920px;
+    margin: auto; /* Center the .transactions container */
+}
+
+.transaction {
+    display: flex;
+    margin-bottom: 10px;
+    /* Border for each transaction */
+}
+
+.transaction-id-container {
+    margin-right: -120px; /* This moves the transaction ID to the right */
+}
+
+.transaction-price {
+    min-width: 100px;
+}
+
+.transaction-date,
+.transaction-name {
+    margin-right: 100px;
+}
+
+.page-number {
+    text-align: center;
+}
+
+.hr-break{
+        width: 700px;
+        border: 2px solid;
+    
+}
+
+.links {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    height: 20px;
+}
+
+.links a {
+    margin: 0 30px; /* Adjust the value as needed */
+    text-decoration: none;
+
+}
+
+
+.links a:hover {
+  
+    color: #90A9FF; /* Whiter text on hover */
+}
+
+.image-1 {
+margin-top: 300px;
+margin-left: 1500px;
+position: absolute;
+}

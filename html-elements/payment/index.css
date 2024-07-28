@@ -1,0 +1,85 @@
+/* CSS for col__box */
+.col__box {
+    width: 300px; /* Set width */
+    height: 300px; /* Set height */
+    flex-shrink: 0; /* Prevent boxes from shrinking */
+    border: 2px solid #000; /* Add border */
+    background: #FFF; /* Set background color */
+    padding: 20px; /* Add padding */
+    margin-bottom: -600px; /* Add margin bottom */
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+  
+  
+  /* CSS for wrapper */
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+ h1 {
+
+    position: absolute;
+    font-size: 50px;
+    margin-left: 41%;
+    margin-top: 110px;
+
+ }
+  
+ .name {
+    color: #000;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+ }
+ 
+ .price {
+    color: #000;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 40px;
+
+ }
+
+ .day_price{
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-top: 20px;
+ }
+
+ .btn__default{
+    float: right; 
+    margin-right: 65px; 
+    margin-top: 10px;
+  
+    background-color: #4F75FC;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+        padding: 5px 10px;
+    border-radius: 30px;
+    border: 7px solid #4F75FC;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+
+
+}
+
+.btn__default:hover{
+    background-color: #90A9FF; /* Change background color */
+    color: white; /* Change text color */
+    border-color: #90A9FF;
+}
